@@ -99,7 +99,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -627,7 +626,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -775,9 +774,13 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.tc-grey {
+    color: #303030;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -790,6 +793,14 @@ h4 {
 }
 
 .ltc-white:hover {
+    color: #cccccc!important;
+}
+
+.ltc-grey {
+    color: #303030!important;
+}
+
+.ltc-grey:hover {
     color: #cccccc!important;
 }
 
