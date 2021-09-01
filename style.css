@@ -64,16 +64,11 @@ a:hover {
 .bg-tl-edge,
 .bg-bl-edge,
 .bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-br-edge {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
-
-.bg-repeat {
-    background: repeat;
 }
 
 .bg-t-edge {
@@ -658,7 +653,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -718,7 +713,7 @@ h3 {
 }
 
 #footer-company-name {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -809,10 +804,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-banniere {
