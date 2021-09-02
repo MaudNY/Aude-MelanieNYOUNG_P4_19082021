@@ -437,7 +437,7 @@ nav .caret {
     transform: scale(1.2);
 }
 
-.text-center a:hover {
+.underline:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -713,6 +713,7 @@ h3 {
     font-size: 20px;
     font-style: italic;
     margin: 35px 0 0 0;
+    padding: 0 50px;
 }
 
 .quote-author {
