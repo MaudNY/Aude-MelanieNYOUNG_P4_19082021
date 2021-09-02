@@ -1091,3 +1091,12 @@ address {
         text-align: center;
     }
 }
+
+@media (max-width: 767px) {
+    .address-block {
+        width: 100%;
+    }
+    .h1-contact {
+        text-align: center;
+    }
+}
