@@ -439,6 +439,19 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn--contact {
+    transform: scale(1);
+    transition: all transform 450ms;
+}
+
+.btn--contact:hover {
+    transform: scale(1.25);
+}
+
+.btn--contact:hover > .underline {
+    text-decoration: underline;
+}
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -726,7 +739,7 @@ h3 {
     margin-bottom: 25px;
 }
 
-#footer-company-name {
+.footer-company-name {
     font-size: 16px;
     font-weight: bold;
 }
